@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="teamnyx"
-           fetch="ssh://git@github.com/TeamNyx/manifest" />
+           fetch="ssh://git@github.com/TeamNyx/" />
 
   <default revision="refs/tags/android-4.1.1_r1"
            remote="teamnyx"
