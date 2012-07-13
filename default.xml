@@ -4,9 +4,6 @@
   <remote  name="teamnyx"
            fetch="git://github.com/TeamNyx/manifest" />
 
-  <remote  name="private"
-           fetch="ssh://git@github.com/TeamNyx/manifest" />
-
   <default revision="refs/tags/android-4.1.1_r1"
            remote="teamnyx"
            sync-j="4" />
