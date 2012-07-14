@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="teamnyx"
+  <remote  name="github"
            fetch="git://github.com/TeamNyx/" />
+           
+  <remote  name="bitbucket"
+           fetch="https://bitbucket.org/nushor/" />
 
   <default revision="refs/tags/android-4.1.1_r1"
-           remote="teamnyx"
+           remote="github"
            sync-j="4" />
 
   <project path="build" name="build">
@@ -24,7 +27,7 @@
   <project path="device/generic/armv7-a-neon" name="device_generic_armv7-a-neon" />
   <project path="device/generic/goldfish" name="device_generic_goldfish" />
   <project path="device/sample" name="device_sample" />
-  <project path="kernel/diablito" name="diablito" />
+  <project path="kernel/diablito" name="diablito" remote="bitbucket" revision="refs/heads/cappy_3.0.31" />
   <project path="docs/source.android.com" name="docs_source.android.com" />
   <project path="external/aac" name="external_aac" />
   <project path="external/android-mock" name="external_android-mock" />
