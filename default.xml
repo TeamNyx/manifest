@@ -27,7 +27,7 @@
   <project path="device/generic/armv7-a-neon" name="device_generic_armv7-a-neon" />
   <project path="device/generic/goldfish" name="device_generic_goldfish" />
   <project path="device/sample" name="device_sample" />
-  <project path="kernel/diablito" name="diablito" remote="bitbucket" />
+  <project path="kernel/diablito" name="diablito" remote="bitbucket" revision="refs/heads/cappy_3.0.31" />
   <project path="docs/source.android.com" name="docs_source.android.com" />
   <project path="external/aac" name="external_aac" />
   <project path="external/android-mock" name="external_android-mock" />
