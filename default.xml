@@ -30,7 +30,7 @@
   <!-- <project path="device/samsung/aries" name="device_samsung_aries" /> -->
   <project path="kernel/diablito" name="diablito" remote="bitbucket" revision="refs/heads/cappy_3.0.31" />
   <project path="docs/source.android.com" name="docs_source.android.com" />
-  <project path="external/aac" name="external_aac" />
+  <project path="external/aac" name="external_aac" revision="refs/heads/master" />
   <project path="external/android-mock" name="external_android-mock" />
   <project path="external/antlr" name="external_antlr" />
   <project path="external/apache-harmony" name="external_apache-harmony" />
